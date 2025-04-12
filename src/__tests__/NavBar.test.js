@@ -10,7 +10,7 @@ test("each <a> element has a unique key prop", () => {
   expect(errorSpy).not.toHaveBeenCalled();
 
   errorSpy.mockRestore();
-});
+}); 
 
 test("renders three <a> elements", () => {
   const { container } = render(<NavBar />);
